@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="ear:ear exploded">
+    <output-path>$PROJECT_DIR$/ear/target/ear-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ear/target/ear-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="archive" name="jar-1.0-SNAPSHOT.jar">
+          <element id="module-output" name="jar" />
+        </element>
+        <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+        <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.0.RELEASE" />
+        <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+        <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.0.RELEASE" />
+        <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.0.RELEASE" />
+        <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.0.RELEASE" />
+        <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.0.RELEASE" />
+        <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.0.RELEASE" />
+        <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.0.RELEASE" />
+        <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:4.2.4.RELEASE" />
+        <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+        <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+        <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+      </element>
+      <element id="archive" name="war-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="war:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>
